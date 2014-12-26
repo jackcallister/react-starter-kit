@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: #E8E8E8;
+}
+
+.photo {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #232323;
+  margin: 1em auto;
+  padding: 1em 1em 0 1em;
+  background: white;
+  max-width: 200px;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+.bar {
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: #BDBDBD;
+  font-size: 2em;
+  margin-left: -4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.active {
+  color: #46749A;
+}

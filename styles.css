@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 2em;
   background: #E8E8E8;
 }
 
@@ -13,8 +13,10 @@ body {
   max-width: 200px;
 }
 
-.photo img {
+img {
   width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
   display: block;
 }
 
@@ -22,6 +24,10 @@ body {
   background: white;
   display: flex;
   align-items: center;
+}
+
+span {
+  line-height: 2.4;
 }
 
 button {
@@ -32,14 +38,14 @@ button {
   margin-left: -4px;
 }
 
+button.active {
+  color: #46749A;
+}
+
 button:hover {
   cursor: pointer;
 }
 
 button:focus {
   outline: none;
-}
-
-button.active {
-  color: #46749A;
 }

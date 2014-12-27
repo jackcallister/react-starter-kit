@@ -11,3 +11,5 @@ All code from the guide should go in the script.js file found in the root of thi
 `cd react-quick-guide`
 
 `python -m SimpleHTTPServer`
+
+Visit `localhost:8000` to view the project.
